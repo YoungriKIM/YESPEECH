@@ -87,11 +87,11 @@ KNN(K-Nearest Neighbor), PCA(Principal Component Analysis) 및 Decision tree를 
     자연어 처리(NLP)나 SER와 같은 음성 기반 분류에 훨씬 효과적이다.  
 
 
-본 논문의 구성
-Section.2: 전통적인 기법을 활용한 SER 에 관련된 배경 소개
-Section.3: 딥러닝기법의 필요성 검토
-Section.4: 다양한 딥러닝기법에 대한 논의와 향후 방향, , SER에 딥러닝기법을 활용한 논문들 요약
-Section.5: 결론
+본 논문의 구성  
+Section.2: 전통적인 기법을 활용한 SER 에 관련된 배경 소개  
+Section.3: 딥러닝기법의 필요성 검토  
+Section.4: 다양한 딥러닝기법에 대한 논의와 향후 방향, , SER에 딥러닝기법을 활용한 논문들 요약  
+Section.5: 결론  
 
 ---
 
