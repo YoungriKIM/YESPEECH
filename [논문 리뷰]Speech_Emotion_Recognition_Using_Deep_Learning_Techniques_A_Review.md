@@ -15,6 +15,7 @@ speech emotion recognition(SER, 음성 감정 인식) 학문에서 감정을 추
 음성 인식은 HCI의 한 분야에서 중요한 요소로 발전했다.  
 이러한 시스템은 언어 콘텐츠를 직접 입력해 사용하는 대신 직접 음성 상호 작용을 통해 기계와 자연스러운 인터랙션을 촉진하는 것을 목표로 한다.
 콜 센터의 대화, 차량 주행 시스템, 의료 분야 등의 애플리케이션에서의 음성 속 감정패턴 활용이나 구어를 활용한 대화 시스템이 이에 포함된다.
+
 인간의 감정을 분류하는 모델은 각기다른 감정으로 접근하는 것이 기본 접근법으로 간주되는데,  
 anger(분노), boredom(지루함), disgust(혐오), surprise(놀람), fear(두려움), joy(기쁨), happiness(행복), neutral(중립), sadness(슬픔)과 같은 다양한 감정을 사용한다.  
 또 다른 중요한 모델은 arousal(활력), valence(발란스), potency(효력)과 같은 매개 변수를 가진 3차원 연속 공간이다.
@@ -44,8 +45,7 @@ KNN(K-Nearest Neighbor), PCA(Principal Component Analysis) 및 Decision tree를 
     입력층과 출력층 사이에 하나 이상의 히든레이어로 구성된 구조를 기반으로 한다.  
 - Convolutional Neural Networks(CNN):  
     이미지 및 비디오 처리에 효율적인 결과를 제공한다.  
-    고차원 입력 데이터에서 특징을 추출하는 장점이 있지만 작은 변화와 왜곡에서도 특징을 학습하므로 대규모 데이터베이스가 필요하다.
-
+    고차원 입력 데이터에서 특징을 추출하는 장점이 있지만 작은 변화와 왜곡에서도 특징을 학습하므로 대규모 데이터베이스가 필요하다.  
 - Recurrent Neural Networks(RNNs), Long Short-Term Memory (LSTM) :  
     자연어 처리(NLP)나 SER와 같은 음성 기반 분류에 훨씬 효과적이다.  
 
@@ -126,6 +126,8 @@ Table5는 IEMOCAP, Emo-DB, SAVEE 데이터셋을 활용하여 여러 딥러닝�
 - Auto Encoder (AE)  
 
 A. DEEP BOLTZMANN MACHINE (DBM)
+DBM은 히든 마르코프 모형에서 파생되었으며 다양한 숨겨진 계층으로 구성되어있으며 히든 레이어 안으이 동일한 계층 간의 상호 연결이 있다.
+
 
 B. RECURRENT NEURAL NETWORK (RNN)
 
